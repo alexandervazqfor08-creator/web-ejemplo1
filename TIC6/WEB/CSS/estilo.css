@@ -1,0 +1,14 @@
+body{
+    background-color:#001472;
+}
+h1{
+         font-family: arial;
+         font-size: 45px;
+         color:red;
+}
+#ktm{
+    width: 240px;
+    height: 220px;
+    border-radius: 70%;
+    border: 2px solid #ff0000;
+}
