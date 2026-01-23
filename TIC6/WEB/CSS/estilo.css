@@ -4,11 +4,33 @@ body{
 h1{
          font-family: arial;
          font-size: 45px;
-         color:red;
+         color:pink;
+         text-align: center;
+}
+h2, h3 p{
+    text-align:center;
+}
+img{
+   display: block;
+   margin: 0 auto;
 }
 #ktm{
     width: 240px;
     height: 220px;
     border-radius: 70%;
     border: 2px solid #ff0000;
+}
+button{
+     display: block;
+     margin: 0 auto;
+     color:#FDFDFD;
+     background-color: #ffh000;
+     padding: 15px 32px
+}
+#ktm:hover {
+ box-shadow: 0 0 2px 1px blue;
+ transform: scale(1.5);
+}
+button:hover{
+ background-color:blue;
 }
